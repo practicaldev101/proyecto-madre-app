@@ -1,0 +1,9 @@
+* {
+  margin: 0;
+  font-family: 'Comic Neue', cursive;
+  font-family: 'M PLUS 1 Code', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

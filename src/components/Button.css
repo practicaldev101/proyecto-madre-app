@@ -1,0 +1,49 @@
+.Board__button {
+    display: block;
+    background: none;
+    border: 4px solid var(--primaryColor);
+    border-radius: 15px;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    cursor: pointer;
+    
+    color: white;
+
+    animation: buttonAnim 1s linear 0s;
+    transition: all ease-in-out 0.4s;
+
+}
+.Board__button:active{
+    background: var(--primaryColor);
+    box-shadow: white 4px 6px 0px;
+    padding: 15px;
+}
+
+.Board__button:hover{
+    background: var(--primaryColor);
+    box-shadow: white 4px 6px 0px;
+    padding: 15px;
+}
+
+@keyframes buttonAnim {
+    0%{
+        left: 0;
+    }
+    40%{
+        left: 50%;
+    }
+
+    80%{
+        top: 48%;
+    }
+
+    90%{
+        top: 52%;
+    }
+    
+}

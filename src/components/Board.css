@@ -1,0 +1,44 @@
+:root {
+    --primaryColor:#7d3c98;
+}
+
+.Board {
+    
+
+    background: #360033;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0b8793, #360033);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0b8793, #360033); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    color: white;
+}
+
+
+.Board__footer{
+    position: fixed;
+    top: 85%;
+    width: 100%;
+    display: block;
+}
+
+.Board__footer > ul{
+    padding: 5px;
+    list-style: none;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.Board__footer > ul > li:hover{
+    border-bottom: white 1px solid;
+}
+
+.Board__footer > ul > li > a{
+    color: white;
+}
+
