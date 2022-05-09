@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/proyecto-madre-app/static/css/main.36c74543.css",
+    "main.js": "/proyecto-madre-app/static/js/main.d1509083.js",
+    "index.html": "/proyecto-madre-app/index.html",
+    "main.36c74543.css.map": "/proyecto-madre-app/static/css/main.36c74543.css.map",
+    "main.d1509083.js.map": "/proyecto-madre-app/static/js/main.d1509083.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.36c74543.css",
+    "static/js/main.d1509083.js"
+  ]
+}
